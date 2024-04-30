@@ -1,0 +1,202 @@
+body{
+    overflow-x: hidden;
+}
+.bg-img{
+    height: 560px;
+    width: 100%;
+    background-image: url(https://foodly-store.myshopify.com/cdn/shop/t/18/assets/img_contact_banner.jpg?v=39613108244828114131488283468);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.op{
+    height: 560px;
+    width: 100%;
+    position: absolute;
+    background-color: #5c4b51;
+    opacity: .6;
+}
+.backg{
+    height: 560px;
+    width: 100%;
+    position: absolute;
+    top: 230px;
+    left: 570px;
+}
+.bg-cont{
+    height: 50px;
+    width: 350px;
+   position: relative;
+    
+}
+.bg-cont h2{
+    font-size: 90px;
+    color: #fff;
+    opacity: .4;
+    font-weight: 200;
+}
+.bg-cont1{
+    position: absolute;
+    height: 50px;
+    width: 350px;
+    top: 60px;
+    /* background-color: #8cbeb2; */
+}
+.bg-cont1 h3{
+    font-size: 35px;
+    font-weight: 300;
+    color: #fff;
+}
+.cont-detail{
+    height: 100px;
+    width: 100%;
+    background-color: #5c4b51;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact{
+    height: 100px;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    background-color: #5c4b51;
+    text-align: left;
+}
+.contact-detail{
+    height: 70px;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.cont-add{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.address{
+    height: 300px;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+.contact-address{
+    height: 200px;
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #5c4b51;
+    gap: 20px;
+}
+.contact-address h2{
+    color: #f06060;
+}
+.contact-address h2:hover{
+    color: #5c4b51;
+}
+.underline p{
+    height: 2px;
+    width: 900px;
+    background-color: #ada2a4;
+}
+.cont-message{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.mes-head h3{
+    font-size: 35px;
+    font-weight: 200;
+    color: #5c4b51;
+}
+.mes-details{
+    height: 300px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.message1 input{
+    height: 130px;
+    width: 500px;
+    border-radius: 5px;
+    background-color: #f5f4f4;
+    border: 1px solid #f5f4f4;
+    color: #5c4b51;
+    position: relative;
+}
+.message1 ::placeholder{
+    font-size: 14px;
+    position: absolute;
+    color: #ada2a4;
+    top: 15px;
+    left: 15px;
+}
+.message2{
+    height: 150px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-content: center;
+}
+.mes-name input{
+    height: 50px;
+    width: 240px;
+    border-radius: 5px;
+    background-color: #f5f4f4;
+    border: 1px solid #f5f4f4;
+    color: #5c4b51;
+    position: relative;
+}
+.mes-name ::placeholder{
+    font-size: 14px;
+    position: absolute;
+    color: #ada2a4;
+    top: 15px;
+    left: 15px;
+}
+.mes-email input{
+    height: 50px;
+    width: 240px;
+    border-radius: 5px;
+    background-color: #f5f4f4;
+    border: 1px solid #f5f4f4;
+    color: #5c4b51;
+    position: relative;
+}
+.mes-email ::placeholder{
+    font-size: 14px;
+    position: absolute;
+    color: #ada2a4;
+    top: 15px;
+    left: 15px;
+}
+.mes-send button{
+    height: 50px;
+    width: 500px;
+    color: #fff;
+    background-color: #f06060;
+    border-radius: 3px;
+    text-align: center;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+}

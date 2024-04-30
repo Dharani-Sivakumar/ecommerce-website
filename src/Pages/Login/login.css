@@ -1,0 +1,128 @@
+.login-title{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.login-title h1{
+    font-size: 30px;
+    font-weight: 200;
+    color: #342f2f;
+}
+.login-title p{
+    font-size: 20px;
+    color: #ada2a4;
+}
+.login-page{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.login-email{
+    height: 100px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-email input{
+    height: 40px;
+    width: 250px;
+    border: 1px solid #f5f4f4;
+    background-color: #f5f4f4;
+}
+.login-password{
+    height: 100px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-password input{
+    height: 40px;
+    width: 250px;
+    border: 1px solid #f5f4f4;
+    background-color: #f5f4f4;
+}
+.forgot-pass{
+    height: 50px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.forgot-pass p{
+    color: #f06060;
+    font-size: 1.1rem;
+}
+.login-button{
+    height: 100px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-page button{
+    height: 40px;
+    width: 250px;
+    background-color: #f06060;
+    color: #fff;
+    border: none;
+}
+.reg-acc{
+    height: 50px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reg-acc p{
+    color: #000;
+    font-size: 1.1rem;
+}
+.reg-acc a{
+    color: #f06060;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+.reg-form{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.reg-name{
+    height: 60px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reg-name input{
+    height: 40px;
+    width: 250px;
+    border: 1px solid #f5f4f4;
+    background-color: #f5f4f4;
+}
+.reg-button{
+    height: 60px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reg-button button{
+    height: 40px;
+    width: 250px;
+    background-color: #f06060;
+    color: #fff;
+    border: none;
+}

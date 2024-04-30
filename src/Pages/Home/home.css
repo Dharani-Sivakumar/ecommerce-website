@@ -1,0 +1,1276 @@
+.body{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+.wholeparent {
+    height: 78.5%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    
+}
+
+.parent1{
+    height: 650px;
+    width: 1520px;
+    background-image: url(https://foodly-store.myshopify.com/cdn/shop/files/img_homepage_slide_1_99ab6459-79aa-49be-89c7-fb4cd2ac027f_2000x.jpg?v=1613153202);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;     
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.parent1, .parent2, .parent3 {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+.child1{
+    position: absolute;
+    top: 27px;
+    left: 630px;
+    height: 40px;
+    width: 220px;
+    color: #342f2f;
+}
+.child1 h3{
+    font-size: 1.8rem;
+    font-weight: 200;
+}
+.child1 p{
+    font-size: 1.3rem;
+    font-weight: 450;
+}
+.child2{
+    position: absolute;
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    background-color: #f06060;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    top: 130px;
+    left: 535px;
+}
+.child2 h3{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.child2 p{
+    font-size: 1.1rem;
+    font-weight: 150;
+}
+.parent2 {
+    height: 650px;
+    width: 1520px;
+    background-image: url(https://foodly-store.myshopify.com/cdn/shop/files/img_homepage_slide_2_1e0ca3da-09bc-46b3-a58e-952f99df5a5d_2000x.jpg?v=1613153202);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.child3{
+    position: absolute;
+    top: 63px;
+    left: 590px;
+    height: 50px;
+    width: 330px;
+    color: #342f2f;
+}
+.child3 h3{
+    font-size: 1.5rem;
+    font-weight: 250;
+}
+.child3 p{
+    font-size: 20px;
+    font-weight: 300;
+}
+.child4{
+    position: absolute;
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    background-color: #8cbeb2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    top: 275px;
+    left: 695px;
+}
+.child4 h3{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.child4 p{
+    font-size: 1.1rem;
+    font-weight: 150;
+}
+
+.parent3 {
+        height: 720px;
+        width: 1520px;
+        background-image: url(https://foodly-store.myshopify.com/cdn/shop/files/img_homepage_slide_3_2d5607e9-6072-431a-9965-9e0421c370c6_2000x.jpg?v=1613153202);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+.child5{
+    position: absolute;
+    top: 200px;
+    left: 270px;
+    height: 50px;
+    width: 330px;
+    text-align: left;
+    color: #342f2f;
+}
+.child5 h3{
+    font-size: 1.9rem;
+    font-weight: 250;
+    font-style: bold;
+}
+.child5 p{
+    font-size: 18px;
+    font-weight: 300;
+}
+.child6{
+    position: absolute;
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    background-color: #8cbeb2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    top: 210px;
+    left: 690px;
+}
+.child6 h3{
+    font-size: 1.2rem;
+    font-weight: 400;
+    
+}
+.child6 p{
+    font-size: 1.1rem;
+    font-weight: 150;
+}
+.child7{
+    position: absolute;
+    top: 200px;
+    left: 955px;
+    height: 50px;
+    width: 330px;
+    text-align: right;
+    color: #342f2f;
+}
+.child7 h3{
+    font-size: 1.9rem;
+    font-weight: 250;
+    font-style: bold;
+}
+.child7 p{
+    font-size: 18px;
+    font-weight: 300;
+}
+.slider{
+    height: 300px;
+    width: 160px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    top: 180px;
+    right: 40px;
+    /* background-color: aqua; */
+}
+.slide1 img{
+    width: 100%;
+    height: auto;
+}
+.slide1{
+    height:70px;
+    width: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: none;
+    border-radius: 50%;
+    border: 4px solid white;
+    z-index: 2;
+    transition: transform .22s ease-in-out;
+}
+.slide1:hover{
+    opacity: .3;
+}
+.slide2 img{
+    width: 100%;
+    height: auto;
+}
+.slide2{
+    height:70px;
+    width: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: none;
+    border-radius: 50%;
+    border: 4px solid white;
+    z-index: 2;
+    transition: transform .22s ease-in-out;
+}
+.slide2:hover{
+    opacity: .3;
+}
+.slide3 img{
+    width: 100%;
+    height: auto;
+}
+.slide3{
+    height:70px;
+    width: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: none;
+    border-radius: 50%;
+    border: 4px solid white;
+    z-index: 2;
+    transition: transform .22s ease-in-out;
+}
+.slide3:hover{
+    opacity: .3;
+}
+.wholeparent2{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+/* .grid{
+    height: 500px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr); */
+}
+.grid1-1{
+    height: 500px;
+    width: 757px;
+    background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        object-fit: cover;
+    background-image: url(https://foodly-store.myshopify.com/cdn/shop/files/img_homepage_special_1_1500x.jpg?v=1613151516);
+    position: relative;
+}
+
+.bg{
+    height: 500px;
+    width: 757px;
+    position: absolute;
+    
+}
+.bg:hover{
+    background-color: #f06060;
+    opacity: .2;
+}
+.start1{
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    color: #342f2f;
+}
+.start1 h3{
+    font-size: 2.1rem;
+    font-weight: 300;
+}
+.start1 p{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.start2{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #f3b562;
+    color: #5c4b51;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 220px;
+    left: 140px;
+}
+.start2 h3{
+    font-size: 1.2rem;
+}
+.start3{
+    position: absolute;
+    height: 3px;
+    width: 520px;
+    background-color: #f3b562;
+    top: 270px;
+    left: 220px;
+}
+.start4{
+    position: absolute;
+    top: 240px;
+    right: 20px;
+    color: #5c4b51;
+}
+.start4 p{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.grid2{
+    height: 500px;
+    width: 757px;
+    background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        object-fit: cover;
+    background-image: url(https://foodly-store.myshopify.com/cdn/shop/files/img_homepage_special_2_1500x.jpg?v=1613151516);
+    position: relative;
+}
+
+.start5{
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    color: #342f2f;
+}
+.start5 h3{
+    font-size: 2.1rem;
+    font-weight: 300;
+}
+
+.start6{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #8cbeb2;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 220px;
+    left: 218px;
+}
+.start6 h3{
+    font-size: 1.2rem;
+}
+.start7{
+    position: absolute;
+    height: 3px;
+    width: 240px;
+    background-color: #8cbeb2;
+    top: 270px;
+    left: 250px;
+}
+.start8{
+    position: absolute;
+    top: 240px;
+    right: 268px;
+    color: #fff;
+}
+.start8 p{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.totalgrid-container{
+    width: 100%;
+    /* height: 100%; */
+}
+.totalgrid{
+    /* height: 100%; */
+    width: 100%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px; */
+}
+
+/* .totalgrid1{
+    height: 450px;
+    width: 1500px;
+    display: grid;
+    grid-template-columns: repeat(24,1fr);
+    gap: 7px;
+} */
+.line1 {
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.set1,.set2,
+.set3,.set4,
+.set5,.set6
+{
+    display: flex;
+    gap: 6px;
+    height: 100%;
+    width: 100%;
+}
+
+
+.backg1{
+    height: 350px;
+    width: 375px;
+    background-image: url(https://foodly-store.myshopify.com/cdn/shop/products/Basil_grande.jpeg?v=1456211118);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    object-fit: cover;
+    position: relative;
+}
+.hover1{
+    height: 350px;
+    width: 375px;
+    position: absolute;
+}
+.hover1:hover{
+    background-color: #f06060;
+    opacity: .2;
+}
+.circle1{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #f06060;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    top: 20px;
+    left: 20px;
+}
+.border{
+    height: 30px;
+    width: 375px;
+}
+.border h3{
+    color: #342f2f;
+}
+.border h3:hover{
+    color: #f06060;
+}
+.border p{
+    color: #adaaaa;
+}
+.border .black{
+    color: #adaaaa;
+}
+.border .black :hover{
+    color: #342f2f;
+}
+.backg2{
+    height: 350px;
+    width: 375px;
+    background-image: url(https://foodly-store.myshopify.com/cdn/shop/products/Brandywine-tomatoes-front_grande.jpeg?v=1456211078);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    object-fit: cover;
+    position: relative;
+}
+.circle2{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #f3b562;
+    color: #342f2f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    top: 20px;
+    right: 20px;
+}
+.backg3{
+    height: 350px;
+    width: 375px;
+    background-image: url(https://foodly-store.myshopify.com/cdn/shop/products/raspberries_ed450429-f3d8-4757-9507-f18101c2c057_grande.jpeg?v=1456210992);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+   position: relative;
+    /* opacity: .6; */
+}
+.index{
+    height: 350px;
+    width: 375px;
+    position: absolute;
+    background-color: #fff;
+    opacity: .3;
+}
+.circle3{
+    position: absolute;
+    top: 160px;
+    left: 125px;
+    z-index: 2;
+}
+.circle3 p{
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #000;
+}
+.backg4{
+    height: 350px;
+    width: 375px;
+    background-image: url(https://foodly-store.myshopify.com/cdn/shop/products/Campari-Tomatoes_grande.jpeg?v=1456211143);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    object-fit: cover;
+    position: relative;
+}
+.backg5{
+    height: 350px;
+    width: 375px;
+    background-image: url(https://foodly-store.myshopify.com/cdn/shop/products/Capia-Pepper-above_grande.jpeg?v=1456211049);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    object-fit: cover;
+    position: relative;
+}
+.backg6{
+    height: 350px;
+    width: 375px;
+    background-image: url(https://foodly-store.myshopify.com/cdn/shop/products/Cherry-tomatoes-above_grande.jpeg?v=1472537367);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    object-fit: cover;
+    position: relative;
+}
+.backg7{
+    height: 350px;
+    width: 375px;
+    background-image: url(https://foodly-store.myshopify.com/cdn/shop/products/cherry-tomatoes_grande.jpg?v=1473490001);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    object-fit: cover;
+    position: relative;
+}
+.backg8{
+    height: 350px;
+    width: 375px;
+    background-image: url(https://foodly-store.myshopify.com/cdn/shop/products/cucumber_grande.jpg?v=1473489264);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    object-fit: cover;
+    position: relative;
+}
+.backg9{
+    height: 350px;
+    width: 375px;
+    background-image: url(https://foodly-store.myshopify.com/cdn/shop/products/Damson_grande.jpeg?v=1456211083);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    object-fit: cover;
+    position: relative;
+}
+.backg10{
+    height: 350px;
+    width: 375px;
+    background-image: url(https://foodly-store.myshopify.com/cdn/shop/products/Empire-Apple_grande.jpeg?v=1456211165);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    object-fit: cover;
+    position: relative;
+}
+.backg11{
+    height: 350px;
+    width: 375px;
+    background-image: url(https://foodly-store.myshopify.com/cdn/shop/products/Fuji-single_grande.jpeg?v=1456211065);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    object-fit: cover;
+    position: relative;
+}
+.backg12{
+    height: 350px;
+    width: 375px;
+    background-image: url(https://foodly-store.myshopify.com/cdn/shop/products/apples_grande.jpeg?v=1456211105);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    object-fit: cover;
+    position: relative;
+}
+.backg13{
+    height: 350px;
+    width: 375px;
+    background-image: url(https://foodly-store.myshopify.com/cdn/shop/products/Golden-Delicious-Apples_grande.jpeg?v=1456211059);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    object-fit: cover;
+    position: relative;
+}
+.backg14{
+    height: 350px;
+    width: 375px;
+    background-image: url(https://foodly-store.myshopify.com/cdn/shop/products/green-beans_grande.jpg?v=1473489516);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    object-fit: cover;
+    position: relative;
+}
+.backg15{
+    height: 350px;
+    width: 375px;
+    background-image: url(https://foodly-store.myshopify.com/cdn/shop/products/leek_grande.jpg?v=1473490100);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    object-fit: cover;
+    position: relative;
+}
+.backg16{
+    height: 350px;
+    width: 375px;
+    background-image: url(https://foodly-store.myshopify.com/cdn/shop/products/Maynard-Plum-Front_grande.jpeg?v=1456211090);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    object-fit: cover;
+    position: relative;
+}
+.backg17{
+    height: 350px;
+    width: 375px;
+    background-image: url(https://foodly-store.myshopify.com/cdn/shop/products/Parsley_grande.jpeg?v=1456211045);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+    /* opacity: .6; */
+}
+.backg18{
+    height: 350px;
+    width: 375px;
+    background-image: url(https://foodly-store.myshopify.com/cdn/shop/products/Radishes_grande.jpeg?v=1456211127);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+    /* opacity: .6; */
+}
+.backg19{
+    height: 350px;
+    width: 375px;
+    background-image: url(https://foodly-store.myshopify.com/cdn/shop/products/Red-Bell-Pepper_grande.jpeg?v=1456211053);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+}
+.backg20{
+    height: 350px;
+    width: 375px;
+    background-image: url(https://foodly-store.myshopify.com/cdn/shop/products/Stanley-Plums-Above_grande.jpeg?v=1456211110);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+  
+}
+.backg21{
+    height: 350px;
+    width: 375px;
+    background-image: url(https://foodly-store.myshopify.com/cdn/shop/products/strawberries_grande.jpg?v=1473489009);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+  
+}
+.backg22{
+    height: 350px;
+    width: 375px;
+    background-image: url(https://foodly-store.myshopify.com/cdn/shop/files/img_homepage_special_1_1500x.jpg?v=1613151516);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+   
+}
+.backg23{
+    height: 350px;
+    width: 375px;
+    background-image: url(https://foodly-store.myshopify.com/cdn/shop/products/Thompson-Seedless-Grape_grande.jpeg?v=1456211160);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+  
+}
+.backg24{
+    height: 350px;
+    width: 375px;
+    background-image: url(https://foodly-store.myshopify.com/cdn/shop/products/plums_wideangle_grande_66dba985-63ff-4613-b0af-f3074b9e3b2b_grande.jpg?v=1458054271);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+
+}
+.wholeparent-container{
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+.wholeparent3{
+    /* height: 60%; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+}
+.section1{
+    height: 400px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-heading{
+    height: 50px;
+    width: 350px;
+    /* background-color: #8cbeb2; */
+   position: relative;
+    
+}
+.section-heading h2{
+    font-size: 70px;
+    color: #f3b562;
+    opacity: .4;
+    font-weight: 200;
+}
+.section-heading1{
+    position: absolute;
+    height: 50px;
+    width: 350px;
+    top: 50px;
+    /* background-color: #8cbeb2; */
+}
+.section-heading1 h3{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+.product-title{
+    height: 30px;
+    width: 375px;
+}
+.product-title h3{
+    color: #342f2f;
+}
+.product-title h3:hover{
+    color: #f06060;
+}
+.product-title p{
+    color: #adaaaa;
+}
+.product-price{
+    height: 30px;
+}
+.product-price h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #f06060;
+}
+.product-price p{
+    font-size: 1.5rem;
+    font-weight: 100;   
+}
+.product-count{
+    height: 30px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+.product-count input{
+    height: 20px;
+    width: 40px;
+    background-color: #adaaaa;
+    color: #000;
+    border: none;
+    text-align: center;
+}
+.bag-button button{
+    height: 50px;
+    width: 250px;
+    background-color: #f06060;
+    color: #fff;
+    border: none;
+    font-weight: 700;
+}
+.bag-button button:hover{
+    background-color: #5c4b51;
+}
+.section2{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAAD1BMVEVcTFL///9cTFJcTFJcTFIux7vQAAAABXRSTlMAAAgPFr80/pcAAAAnSURBVHgBY2DEBAxMWMAwVziqcFQhFoBdITMWwIIFjCoEg1GFowoBVCYPevB5gSUAAAAASUVORK5CYII=);
+}
+.section2 img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+}
+.totalcontainer{
+height: 500px;
+}
+.wholecontent,
+.wholecontent1,
+.wholecontent2
+{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 65px;
+}
+/* .wholecontent,
+.wholecontent1,
+.wholecontent2{
+    display: none;
+}
+.show1{
+    display: block;
+} */
+.title{
+    height: 50px;
+    width: 350px;
+   position: relative;
+    
+}
+.title h2{
+    font-size: 70px;
+    color: #5c4b51;
+    opacity: .4;
+    font-weight: 200;
+}
+.title1{
+    position: absolute;
+    height: 50px;
+    width: 350px;
+    top: 50px;
+    /* background-color: #8cbeb2; */
+}
+.title1 h3{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+.gridcont{
+    height: 300px;
+    width: 900px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.temp1 p{
+    font-size: 32px;
+    font-weight: 400;
+    color: #342f2f;
+}
+.temp2{
+    height: 210px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    color: #342f2f;
+    gap: 20px;
+}
+.temp2 h3{
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 400;
+    text-align: left;
+}
+.temp2 p{
+    font-size: 20px;
+    font-weight: 200;
+    text-align: left;
+}
+.temp3{
+    height: 200px;
+    width: 300px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+.temp{
+    height: 200px;
+    width: 300px;
+    position:relative;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 22px;
+    opacity: 0.2;
+    bottom: 165px;
+}
+.tempimg{
+    height: 200px;
+    width: 300px;
+    /* position: absolute; */
+}
+.temp3{
+    height: 200px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.temp-1{
+    height: 200px;
+    width: 300px;
+    position:relative;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 22px;
+    opacity: 0.2;
+    bottom: 110px;
+}
+.tempimg1{
+    height: 200px;
+    width: 300px;
+    /* position: absolute; */
+}
+
+.contfoot{
+    height: 80px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contfoot button{
+    border: none;
+    height: 25px;
+    width: 100px;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+    display: flex;
+    background: none;
+}
+.contfoot p{
+    height: 5px;
+    width: 900px;
+    background-color: #f3b562;
+}
+.contfoot button:hover{
+    color: #f06060;
+}
+.contfoot1{
+    height: 80px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contfoot1 button{
+    border: none;
+    height: 25px;
+    width: 100px;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+    display: flex;
+    background: none;
+}
+.contfoot1 p{
+    height: 5px;
+    width: 900px;
+    background-color: #8cbeb2;
+}
+.contfoot1 button:hover{
+    color: #f06060;
+}
+.contfoot2{
+    height: 80px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contfoot2 button{
+    border: none;
+    height: 25px;
+    width: 100px;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+    display: flex;
+    background: none;
+}
+
+.contfoot2 p{
+    height: 5px;
+    width: 900px;
+    background-color: #f06060;
+}
+
+.contfoot2 button:hover{
+    color: #f06060;
+}
+.slide-button{
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.yellowbox{
+    height: 30%;
+    width: 100%;
+    background-color: #f3b562;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.yellow1{
+    height: 300px;
+    width: 1500px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.yellowgrid1{
+    height: 250px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fam{
+    height: 100px;
+    width: 500px;
+   position: relative;
+    
+}
+.fam h2{
+    font-size: 100px;
+    color: #fff;
+    opacity: .4;
+    font-weight: 300;
+}
+.fam1{
+    position: absolute;
+    height: 100px;
+    width: 500px;
+    top: 12px;
+    /* background-color: #8cbeb2; */
+}
+.fam1 h3{
+    font-size: 1.8rem;
+    font-weight: 150;
+    color: #fff;
+}
+.yellowgrid2{
+    height: 280px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.fam3{
+    height: 20px;
+    width: 600px;
+}
+.fam3 p{
+    font-size: 20px;
+    font-weight: 150;
+    color: #342f2f;
+}
+.fam4{
+    height: 60px;
+    width: 580px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fam4 input{
+    height: 40px;
+    width: 550px;
+    text-align: left;
+    color: #5c4b51;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    background-color: #fff;
+}
+.fam4 button{
+    height: 40px;
+    width: 150px;
+    background-color: #fff;
+    border: none;
+    color: #5c4b51;
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+.fam4 button:hover{
+    color: #f06060;
+}
+
+.feedback{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.feed-head
+{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 65px;
+}
+.feed-title{
+    height: 50px;
+    width: 350px;
+   position: relative;
+    
+}
+.feed-title h2{
+    font-size: 70px;
+    color: #5c4b51;
+    opacity: .4;
+    font-weight: 200;
+}
+.feed-title1{
+    position: absolute;
+    height: 50px;
+    width: 350px;
+    top: 50px;
+    /* background-color: #8cbeb2; */
+}
+.feed-title1 h3{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+.feedback-grid{
+    height: 600px;
+    width: 1500px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-content: center;
+}
+.feed{
+    height: 450px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAAD1BMVEVcTFL///9cTFJcTFJcTFIux7vQAAAABXRSTlMAAAgPFr80/pcAAAAnSURBVHgBY2DEBAxMWMAwVziqcFQhFoBdITMWwIIFjCoEg1GFowoBVCYPevB5gSUAAAAASUVORK5CYII=);
+}
+.feed-grid{
+    height: 450px;
+    width: 850px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.feed-grid img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+.feed-grid1{
+    height: 450px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+.feed1{
+    height: 450px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* gap: 15px; */
+}
+.feed-grid1 h2{
+    font-size: 24px;
+    color: #342f2f;
+    text-align: left;
+}
+.feed-grid1 h4{
+    font-size: 15px;
+    color: #adaaaa;
+    text-align: left;
+}
+.feed-grid1 p{
+    font-size: 15px;
+    color: #342f2f;
+    text-align: left;
+}
+.feed-grid1 h5{
+    font-size: 15px;
+    color: #1da1f2;
+    text-align: left;
+}

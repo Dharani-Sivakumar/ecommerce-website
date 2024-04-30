@@ -1,0 +1,276 @@
+.page-title{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.page-title h1{
+    font-size: 30px;
+    font-weight: 200;
+    color: #342f2f;
+}
+.page-title p{
+    font-size: 20px;
+    color: #ada2a4;
+}
+.page-para{
+    height: 750px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.page-para p{
+    width: 700px;
+    color: #342f2f;
+    text-align: left;
+    line-height: 35px;
+}
+.page-para li{
+    color: #342f2f;
+    text-align: left;
+    line-height: 40px;
+}
+.totalcontainer{
+    height: 500px;
+    }
+    .wholecontent,
+    .wholecontent1,
+    .wholecontent2
+    {
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 65px;
+    }
+    /* .wholecontent,
+    .wholecontent1,
+    .wholecontent2{
+        display: none;
+    }
+    .show1{
+        display: block;
+    } */
+    .title{
+        height: 50px;
+        width: 350px;
+       position: relative;
+        
+    }
+    .title h2{
+        font-size: 70px;
+        color: #5c4b51;
+        opacity: .4;
+        font-weight: 200;
+    }
+    .title1{
+        position: absolute;
+        height: 50px;
+        width: 350px;
+        top: 50px;
+        /* background-color: #8cbeb2; */
+    }
+    .title1 h3{
+        font-size: 1.5rem;
+        font-weight: 100;
+    }
+    .gridcont{
+        height: 300px;
+        width: 900px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .temp1 p{
+        font-size: 32px;
+        font-weight: 400;
+        color: #342f2f;
+    }
+    .temp2{
+        height: 210px;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        color: #342f2f;
+        gap: 20px;
+    }
+    .temp2 h3{
+        font-size: 24px;
+        line-height: 40px;
+        font-weight: 400;
+        text-align: left;
+    }
+    .temp2 p{
+        font-size: 20px;
+        font-weight: 200;
+        text-align: left;
+    }
+    .temp3{
+        height: 200px;
+        width: 300px;
+        /* display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; */
+    }
+    .temp{
+        height: 200px;
+        width: 300px;
+        position:relative;
+        font-size: 18px;
+        font-weight: 800;
+        letter-spacing: 22px;
+        opacity: 0.2;
+        bottom: 165px;
+    }
+    .tempimg{
+        height: 200px;
+        width: 300px;
+        /* position: absolute; */
+    }
+    .temp3{
+        height: 200px;
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .temp-1{
+        height: 200px;
+        width: 300px;
+        position:relative;
+        font-size: 18px;
+        font-weight: 800;
+        letter-spacing: 22px;
+        opacity: 0.2;
+        bottom: 110px;
+    }
+    .tempimg1{
+        height: 200px;
+        width: 300px;
+        /* position: absolute; */
+    }
+    .contfoot{
+        height: 80px;
+        width: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contfoot button{
+        border: none;
+        height: 25px;
+        width: 100px;
+        font-size: 16px;
+        font-weight: 800;
+        text-transform: uppercase;
+        display: flex;
+        background: none;
+    }
+    .contfoot p{
+        height: 5px;
+        width: 700px;
+        background-color: #f3b562;
+    }
+    .contfoot button:hover{
+        color: #f06060;
+    }
+    .contfoot1{
+        height: 80px;
+        width: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contfoot1 button{
+        border: none;
+        height: 25px;
+        width: 100px;
+        font-size: 16px;
+        font-weight: 800;
+        text-transform: uppercase;
+        display: flex;
+        background: none;
+    }
+    .contfoot1 p{
+        height: 5px;
+        width: 700px;
+        background-color: #8cbeb2;
+    }
+    .contfoot1 button:hover{
+        color: #f06060;
+    }
+    .contfoot2{
+        height: 80px;
+        width: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contfoot2 button{
+        border: none;
+        height: 25px;
+        width: 100px;
+        font-size: 16px;
+        font-weight: 800;
+        text-transform: uppercase;
+        display: flex;
+        background: none;
+    }
+    
+    .contfoot2 p{
+        height: 5px;
+        width: 700px;
+        background-color: #f06060;
+    }
+    
+    .contfoot2 button:hover{
+        color: #f06060;
+    }
+    .slide-button{
+        width: 700px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .page-para2{
+        height: 800px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .page-para2 p{
+        width: 700px;
+        color: #342f2f;
+        text-align: left;
+        line-height: 35px;
+    }
+    .page-img{
+        height: 300px;
+        width: 700px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        align-items: center;
+        justify-content: center;
+    }
+    .page-img img{
+        height: 200px;
+        width: 240px;
+        object-fit: cover;
+    }
+    .page-link{
+        font-weight: 600;
+        color: #f06060;
+    }
